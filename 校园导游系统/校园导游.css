@@ -1,0 +1,324 @@
+body{
+    background-color:#f5f5f5;
+}
+#testd{
+    position: absolute;
+    left:450px;
+    top:50px;
+    height:440px;
+    width: 640px;
+    background-color: #fff;
+    z-index: 20;
+    visibility: none;
+    overflow: hidden;
+}
+#Background{
+    position: absolute;
+    height:100%;
+    width:100%;
+    top:0px;
+    background: rgba(255, 255, 255, 0.7);
+    z-index:10;
+    visibility: none;
+    overflow: hidden;
+}
+p{
+    font-family: '宋体';
+    margin-left: 50px;
+}
+.Map{
+    position: relative;
+    width:70%;
+    height:60%;
+}
+.Map_png{
+    width:100%;
+    height:100%;
+}
+.Map_place{
+    position: absolute;
+    background-color: #ffffff;
+    width:300px;
+    height:400spx;
+    right:100px;
+    top:50px;
+    border-radius: 5px 5px 5px 5px;
+}
+.Map_p{
+    font-size:30px;
+    font-family: '华文新魏';
+    margin-left: 100px;
+}
+.Map_query{
+    position: absolute;
+    width:100%;
+    height:100px;
+    background-color:#f5f5f5;
+}
+.Map_query_input1{
+    position: absolute;
+    top:35px;
+    left: 170px;
+}
+.Map_query_input2{
+    position: absolute;
+    top:35px;
+    left: 700px;
+}
+.Map_query_input3{
+    position: absolute;
+    top:35px;
+    left: 900px;
+}
+.Map_query_p1{
+    position: absolute;
+    top:20px;
+}
+.Map_query_p2{
+    position: absolute;
+    top:20px;
+    left:500px;
+}
+.Map_query_p3{
+    position: absolute;
+    top:20px;
+    left:820px;
+}
+.Map_query_button1{
+    position: absolute;
+    top:30px;
+    left:350px;
+}
+.Map_query_button2{
+    position: absolute;
+    top:30px;
+    left:1080px;
+}
+.W_1{
+    position: absolute;
+    z-index:9;
+    width:100px;
+    height:10px;
+    top:300px;
+    left:50px;
+    background-color: red;
+}
+.W_2{
+    position: absolute;
+    z-index:9;
+    width:10px;
+    height:140px;
+    top:310px;
+    left:50px;
+    background-color: red;
+}
+.W_3{
+    position: absolute;
+    z-index:9;
+    width:10px;
+    height:140px;
+    top:170px;
+    left:50px;
+    background-color: red;
+}
+.W_4{
+    position: absolute;
+    z-index:9;
+    width:100px;
+    height:10px;
+    top:170px;
+    left:50px;
+    background-color: red;
+}
+.W_5{
+    position: absolute;
+    z-index:9;
+    width:10px;
+    height:140px;
+    top:170px;
+    left:150px;
+    background-color: red;
+}
+.W_6{
+    position: absolute;
+    z-index:9;
+    width:280px;
+    height:10px;
+    top:440px;
+    left:50px;
+    background-color: red;
+}
+.W_7{
+    position: absolute;
+    z-index:9;
+    width:130px;
+    height:10px;
+    top:300px;
+    left:205px;
+    background-color: red;
+}
+.W_8{
+    position: absolute;
+    z-index:9;
+    width:10px;
+    height:150px;
+    top:300px;
+    left:330px;
+    background-color: red;
+}
+.W_9{
+    position: absolute;
+    z-index:9;
+    width:10px;
+    height:240px;
+    top:60px;
+    left:330px;
+    background-color: red;
+}
+.W_10{
+    position: absolute;
+    z-index:9;
+    width:175px;
+    height:10px;
+    top:440px;
+    left:340px;
+    background-color: red;
+}
+.W_11{
+    position: absolute;
+    z-index:9;
+    width:65px;
+    height:10px;
+    top:300px;
+    left:450px;
+    background-color: red;
+}
+.W_12{
+    position: absolute;
+    z-index:9;
+    width:10px;
+    height:150px;
+    top:300px;
+    left:510px;
+    background-color: red;
+}
+.W_13{
+    position: absolute;
+    z-index:9;
+    width:10px;
+    height:200px;
+    top:100px;
+    left:510px;
+    background-color: red;
+}
+.W_14{
+    position: absolute;
+    z-index:9;
+    width:130px;
+    height:10px;
+    top:440px;
+    left:520px;
+    background-color: red;
+}
+.W_15{
+    position: absolute;
+    z-index:9;
+    width:10px;
+    height:80px;
+    top:440px;
+    left:650px;
+    background-color: red;
+}
+.W_16{
+    position: absolute;
+    z-index:9;
+    width:65px;
+    height:10px;
+    top:300px;
+    left:620px;
+    background-color: red;
+}
+.W_17{
+    position: absolute;
+    z-index:9;
+    width:65px;
+    height:10px;
+    top:120px;
+    left:630px;
+    background-color: red;
+    -webkit-transform:rotate(20deg);
+}
+.W_18{
+    position: absolute;
+    z-index:9;
+    width:65px;
+    height:10px;
+    top:300px;
+    left:820px;
+    background-color: red;
+}
+.Map_button1{
+    position: absolute;
+    z-index: 9;
+    top:295px;
+}
+.Map_button2{
+    position: absolute;
+    z-index: 9;
+    top:80px;
+    left:80px;
+}
+.Map_button3{
+    position: absolute;
+    z-index: 9;
+    top:295px;
+    left:160px;
+}
+.Map_button4{
+    position: absolute;
+    z-index: 9;
+    top:45px;
+    left:360px;
+}
+.Map_button5{
+    position: absolute;
+    z-index: 9;
+    top:295px;
+    left:380px;
+}
+.Map_button6{
+    position: absolute;
+    z-index: 9;
+    top:240px;
+    left:550px;
+}
+.Map_button7{
+    position: absolute;
+    z-index: 9;
+    top:90px;
+    left:560px;
+}
+.Map_button8{
+    position: absolute;
+    z-index: 9;
+    top:390px;
+    left: 600px;
+}
+.Map_button9{
+    position: absolute;
+    z-index: 9;
+    top:520px;
+    left:635px;
+}
+.Map_button10{
+    position: absolute;
+    z-index: 9;
+    top:250px;
+    left:730px;
+}
+.Map_button11{
+    position: absolute;
+    z-index: 9;
+    top:250px;
+    left:925px;
+}
